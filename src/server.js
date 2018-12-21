@@ -25,8 +25,6 @@ class App {
   }
 
   database () {
-    // mongodb://usuario:senha@localhost:27017/nomedatabase
-
     mongoose.connect(
       databaseConfig.uri,
       {
